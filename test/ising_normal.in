@@ -1,0 +1,23 @@
+Ising_model
+
+dimension 1
+total_spins 100
+   Spin_per_dimension
+0  100
+
+cut_off 1
+temperature 2
+H 0
+
+RFIM 0
+RBIM 0
+
+   J_matrix    
+AA  1        
+AB  1        
+BA  1        
+BB  1        
+
+total_steps 10000
+equilibration_steps 1000
+

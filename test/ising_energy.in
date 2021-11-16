@@ -1,0 +1,12 @@
+Energy
+
+energy_file ./Ising_Energy.dat
+
+min_E -40
+max_E -30
+bin_width 0.5
+
+min_E -6
+max_E  6
+bin_width 0.5
+

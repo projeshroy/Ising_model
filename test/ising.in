@@ -1,0 +1,37 @@
+Ising_model
+
+dimension 3
+total_spins 1000
+   Spin_per_dimension
+0  10
+1  10
+2  10
+
+cut_off 1
+temperature 1
+H 0
+
+total_types 3
+type_names   type_spins  type_count
+    P  	 	 1           400
+    E 	        -1           400
+    N            0           200
+
+flip_prob  0.5
+flip_type
+0    1
+1    0
+2    2
+swap_prob  0.5
+
+RFIM no
+RBIM no
+
+J_matrix    
+AA  1        AB  1        AC  1
+BA  1        BB  1        BC  1
+CA  1        CB  1        CC  1
+
+total_steps 100
+equilibration_steps 100
+

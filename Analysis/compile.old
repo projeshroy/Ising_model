@@ -1,0 +1,3 @@
+#g++-4.8.5 -std=c++11 -I /usr/include/eigen3 -o Ising_analysis Ising_analysis.cpp -lm -lgsl -lgslcblas -g3 -fopenmp
+#g++-4.8.5 -std=c++11 -I /usr/include/eigen3 -o Ising_triplet_analysis Ising_triplet_analysis.cpp -lm -lgsl -lgslcblas -g3 -fopenmp
+g++-4.8.5 -std=c++11 -I /usr/include/eigen3 -o Ising_quadruplet_analysis Ising_quadruplet_analysis.cpp -lm -lgsl -lgslcblas -g3 -fopenmp

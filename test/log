@@ -1,0 +1,2037 @@
+ total_steps 100
+ equilib_steps 100
+ dimension 3
+ total_spins 1000
+ total_spins_per_dim 10
+10
+10
+ grid_cut_off 1
+ temperature 1
+ Field 0
+ FLIP_PROBABILITY 0.5
+ SWAP_PROBABILITY 0.5
+ RFIM_ 0
+ RBIM_ 0
+ total_types 3
+ type_names  type_spins  type_count 
+   P   1   400
+   E   -1   400
+   N   0   200
+ FLIP_PROBABILITY 0.5
+ flip_type 1 0 2
+ SWAP_PROBABILITY 0.5
+ J_matrix 
+1 1 1
+1 1 1
+1 1 1
+ Ising_Spin_Coordinates 
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+0 0 0
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ Ising_Spin_Coordinates 0 0 0 distance 0
+ Ising_Spin_Coordinates 1 1 1 distance 1.73205
+ Ising_Spin_Coordinates 2 2 2 distance 3.4641
+ Ising_Spin_Coordinates 3 3 3 distance 5.19615
+ Ising_Spin_Coordinates 4 4 4 distance 6.9282
+ Ising_Spin_Coordinates 5 5 5 distance 8.66025
+ Ising_Spin_Coordinates 6 6 6 distance 6.9282
+ Ising_Spin_Coordinates 7 7 7 distance 5.19615
+ Ising_Spin_Coordinates 8 8 8 distance 3.4641
+ Ising_Spin_Coordinates 9 9 9 distance 1.73205
+ nearest_neighbor_count 99
+10 % ..... Completed 
+20 % ..... Completed 
+30 % ..... Completed 
+40 % ..... Completed 
+50 % ..... Completed 
+60 % ..... Completed 
+70 % ..... Completed 
+80 % ..... Completed 
+90 % ..... Completed 
+100 % ..... Completed 

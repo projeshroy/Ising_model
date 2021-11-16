@@ -1,0 +1,17 @@
+Ising_triplet
+
+spin_file /home/p_roy002/Ising_model/test/Ising_Spin_Matrix.dat
+energy_file /home/p_roy002/Ising_model/test/Ising_Energy.dat
+
+AAA_min_E     -18
+AAA_max_E     18
+AAA_bin_width  0.5
+
+AAB_min_E     -18
+AAB_max_E      18
+AAB_bin_width  0.5
+
+BAB_min_E      -18
+BAB_max_E      18
+BAB_bin_width  0.5
+
