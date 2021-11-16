@@ -1,0 +1,4 @@
+NOW=$(printf "%(%F_%H%M%S)T")
+git add -A
+git commit -am "$NOW"
+git push

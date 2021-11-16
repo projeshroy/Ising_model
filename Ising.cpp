@@ -26,12 +26,15 @@ int main (int argc, char** argv)
 #pragma omp parallel num_threads(max_threads)
  {
    int thread_id = omp_get_thread_num();
+#pragma omp critical
+{
    if(thread_id > 0){ 
    Read_Input(input_file_address);
    MasterThread_Initialize();
    Thread_Initialize();
    }
- }
+}
+}
 
    std::string spin_matrix_file_address = directory[1].append(std::string("Ising_Spin_Matrix.dat"));
    std::ofstream spin_matrix_file(spin_matrix_file_address.c_str());

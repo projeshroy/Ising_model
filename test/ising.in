@@ -34,4 +34,4 @@ CA  1        CB  1        CC  1
 
 total_steps 100
 equilibration_steps 100
-
+data_write_step	10
