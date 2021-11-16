@@ -73,9 +73,40 @@ double getRand(double range_ini, double range_fin, double range_gap)
    std::mt19937 generator = std::mt19937(std::random_device()());
    std::uniform_real_distribution<double> distribution(range_ini, range_fin);
    double _rand = distribution(generator);
-   double new_rand = std::round( (_rand - range_ini)/range_gap ) + range_ini;
+   double new_rand = std::round( (_rand - range_ini)/range_gap )*range_gap + range_ini;
 
    return (new_rand);
+}
+
+Vec_d getUniqueRandVector(int& rand_vector_size, double range_ini, double range_fin, double range_gap)
+{
+   Vec_d rand_vector; rand_vector.resize(rand_vector_size);
+   Vec_d linear_vector; linear_vector.resize(rand_vector_size); linear_vector.fill(1);
+
+   while(linear_vector.sum() != 0){
+   int rand_index = (int)getRand(0, rand_vector_size+1);
+   if(rand_index < rand_vector_size){
+   if(linear_vector[rand_index] == 1){
+   rand_vector[rand_index] = rand_index*range_gap + range_ini;
+   linear_vector[rand_index] = 0;
+   }}}
+
+   return rand_vector;    
+}
+
+Vec_d getUniqueRandVector(int& rand_vector_size, double range_ini, double range_fin)
+{
+   Vec_d rand_vector; rand_vector.resize(rand_vector_size);
+   double large_number = getRand(1000, 10000);
+
+   #pragma omp parallel for schedule(static) shared(rand_vector)
+   for(int i = 0; i < rand_vector.size(); i++){
+    int new_range_ini = range_ini * large_number;
+    int new_range_fin = range_fin * large_number;
+    rand_vector[i] = getRand(new_range_ini, new_range_fin);
+    rand_vector[i] /= large_number;
+   }
+   return rand_vector;
 }
 
 double getMax(Vec_d& array, std::string getindex)
@@ -342,7 +373,7 @@ double round(double& x, int n){
    Mat_d Ising_Spin_Coordinates, J_value, H_value,  J_matrix, Delta_J, RBIM_p, Neighbor_List, Distance_List;
    Vec_d Ising_Spin, Ising_Spin_type, Ising_Atomistic_Energy, type_spins, flip_type, total_spins_per_dim, type_count;
    Vec_s type_names, Ising_Spin_name;
-   int total_spins, total_steps, total_steps_count, equilib_steps, data_write_step, dimension, nearest_neighbor_count, total_types;
+   int total_spins, total_steps, total_steps_count, equilib_steps, data_write_step, dimension, nearest_neighbor_count, total_types, equil_random_spin_size, prod_random_spin_size;
    double Field, Ising_Energy, temperature, grid_cut_off, Sigma_H, FLIP_PROBABILITY, SWAP_PROBABILITY;
    bool RFIM_, RBIM_;
 //....................................................................

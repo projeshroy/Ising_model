@@ -55,10 +55,11 @@ int main (int argc, char** argv)
    Ising_Atomistic_Energy = Calc_Ising_Energy(H_value, Ising_Spin, Ising_Spin_type);
    Ising_Energy = Ising_Atomistic_Energy.sum();
 
+   std::cout << " Main code starts ..." << std::endl;
+
    for(int step = 0; step <= (equilib_steps + total_steps); step++)
       {
       print_progress_bar<int>(step, (equilib_steps + total_steps), 10);
-      int random_spin = getRand(0, total_spins-1);
       Vec_d New_Ising_Spin = Ising_Spin;
       Vec_d New_Ising_Spin_type = Ising_Spin_type;	
       Vec_s New_Ising_Spin_name = Ising_Spin_name;
@@ -77,26 +78,38 @@ int main (int argc, char** argv)
       else flip = true;
       }
 
+//...................................................................................
+      int random_spin_size;
+      if(step <= equilib_steps)
+        random_spin_size = equil_random_spin_size*2;
+      else random_spin_size = prod_random_spin_size*2;
+ 	
+      Vec_d total_vector = getUniqueRandVector(random_spin_size, 0.0, (double)(total_spins-1));//keep (random_spin_size << total_spins/2)
+      random_spin_size /= 2;
+      Vec_d random_flip_spin_vector = total_vector.topRows(random_spin_size);
+      Vec_d random_swap_spin_vector = total_vector.bottomRows(random_spin_size);
+
+      #pragma omp parallel for schedule(static)\
+       shared(random_flip_spin_vector, random_swap_spin_vector, New_Ising_Spin_type, New_Ising_Spin_name, New_Ising_Spin)
+      for(int i = 0; i < random_spin_size; i++){
+      int random_spin = (int)random_flip_spin_vector[i];
       if(flip){
       New_Ising_Spin_type[random_spin] = flip_type[New_Ising_Spin_type[random_spin]];
       New_Ising_Spin_name[random_spin] = type_names[New_Ising_Spin_type[random_spin]];
       New_Ising_Spin[random_spin] = type_spins[New_Ising_Spin_type[random_spin]];
       }
       else if(swap){
-      int swap_spin = random_spin;
-
-      while(swap_spin == random_spin){
-      swap_spin = getRand(0, total_spins-1);
-      }
+      int swap_spin = random_swap_spin_vector[i];
       double old_spin = New_Ising_Spin[random_spin];
       double old_spin_type = New_Ising_Spin_type[random_spin];
-      std::string old_spin_name = New_Ising_Spin_name[random_spin];
+      auto old_spin_name = New_Ising_Spin_name[random_spin];
       New_Ising_Spin[random_spin] = New_Ising_Spin[swap_spin];
       New_Ising_Spin_type[random_spin] = New_Ising_Spin_type[swap_spin];
       New_Ising_Spin_name[random_spin] = New_Ising_Spin_name[swap_spin];
       New_Ising_Spin[swap_spin] = old_spin;
       New_Ising_Spin_type[swap_spin] = old_spin_type;
       New_Ising_Spin_name[swap_spin] = old_spin_name;
+      }
       }
 
 //.......................................................................................
@@ -117,7 +130,7 @@ int main (int argc, char** argv)
 	Ising_Atomistic_Energy = New_Ising_Atomistic_Energy;
 	}
 
-      if((step == equilib_steps)||(((step-equilib_steps) > data_write_step)&&((step-equilib_steps) % data_write_step == 0)))
+      if((step == equilib_steps)||(((step-equilib_steps) >= data_write_step)&&((step-equilib_steps) % data_write_step == 0)))
         {
 	for(int spin = 0; spin < total_spins; spin++)
             spin_matrix_file << Ising_Spin[spin] << "  ";
@@ -129,8 +142,8 @@ int main (int argc, char** argv)
 	energy_file << std::endl;  
 	
 	}
-    
-        }
+    }
+
 //......................................................................................
 }   
 

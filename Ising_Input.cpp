@@ -42,6 +42,9 @@ void Read_Input(std::string& input_file_address)
    for(int i = 0; i < total_types; i++)
    input_file >> read_string >> flip_type[i];
    input_file >> read_string >> SWAP_PROBABILITY;   
+   input_file >> read_string >> equil_random_spin_size;
+   input_file >> read_string >> prod_random_spin_size;
+
 
    input_file >> read_string >> read_string;
    if(read_string == std::string("yes"))
@@ -90,6 +93,8 @@ void Read_Input(std::string& input_file_address)
    std::cout << " Field " << Field << std::endl;
    std::cout << " FLIP_PROBABILITY " << FLIP_PROBABILITY << std::endl;
    std::cout << " SWAP_PROBABILITY " << SWAP_PROBABILITY << std::endl;
+   std::cout << " equil_random_spin_size " << equil_random_spin_size << std::endl;
+   std::cout << " prod_random_spin_size " << prod_random_spin_size  << std::endl;
    std::cout << " RFIM_ " << RFIM_ << std::endl;
    if(RFIM_)
     std::cout << " Sigma_H " << Sigma_H << std::endl;

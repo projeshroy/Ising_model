@@ -23,6 +23,8 @@ flip_type
 1    0
 2    2
 swap_prob  0.5
+equil_random_spin_size 5
+prod_random_spin_size 5
 
 RFIM no
 RBIM no
